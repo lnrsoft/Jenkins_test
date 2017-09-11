@@ -92,13 +92,13 @@ int main() {
     printf("\n");
     // Create a vector object and add a few elements to it.
     vector<MemoryBlock> v;
-    v.push_back(MemoryBlock(25000000));
+    v.push_back(MemoryBlock(250000000));
     printf("\n");
-    v.insert(v.begin() + 1, MemoryBlock(50000000));
+    v.insert(v.begin() + 1, MemoryBlock(500000000));
     printf("\n");
     later later_test1(100, false, &test1);
     printf("\n");
-    v.push_back(MemoryBlock(75000000));
+    v.push_back(MemoryBlock(750000000));
     //    Insert a new element into the second position of the vector.
     //    later later_test2(100, false, &test2);
   }
